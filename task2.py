@@ -9,7 +9,7 @@ def get_list_info(lst):
     sum_list = sum(lst)
     average = round(sum_list / len(lst), 2)
 
-
+    # отступ перед return должен быть не больше одной строки
     return min_elem, max_elem, sum_list, average
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
